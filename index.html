@@ -20,45 +20,60 @@
 
   <body>
     <header>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>Menu</li>
-          <li>About Us</li>
-          <li>Order Now</li>
-        </ul>
+      <nav class="navbar navbar-expand-md">
+        <div class="container px-0">
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div id="navbarResponsive" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="#"><span>Order Now</span></a></li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
 
     <main>
       <section>
-        <img src="img/logo.png" alt="Logo">
-        <button>Order Now</button>
+        <img class="w-75 d-flex mx-auto" src="img/logo.png" alt="Bob's Burgers Logo">
+        <button class="d-flex mx-auto btn btn-primary">Order Now</button>
       </section>
 
-      <section>
-        <article>
-          <h2>World's Best Burgers</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
-          <button>View Menu</button>
-        </article>
+      <div class="container">
+        <section class="row">
+          <article class="col-lg-8">
+            <h2 class="text-uppercase">World's Best <span>Burgers</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+            <button class="btn btn-primary">View Menu</button>
+          </article>
 
-        <img src="img/bobs-burger.png" alt="Burger">
-      </section>
+          <img class="col-lg-4" src="img/bobs-burger.png" alt="Burger">
+        </section>
+      </div>
 
-      <section>
-        <article>
-          <h2>Dine-in or Take-out</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
-          <button>Contact Us</button>
-        </article>
+      <div>
+        <div class="container">
+          <section class="row flex-lg-row-reverse">
+            <article class="col-lg-8">
+              <h2 class="text-uppercase">Dine-in or <span>Take-out</span></h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+              <button class="btn btn-primary">Contact Us</button>
+            </article>
 
-        <img src="img/bob-headshot.png" alt="Bob">
-      </section>
+            <img class="col-lg-4" src="img/bob-headshot.png" alt="Bob">
+          </section>
+        </div>
+      </div>
     </main>
 
     <footer>
-      <img src="img/logo.png" alt="Logo">
+      <img class="w-50 d-flex mx-auto" src="img/logo.png" alt="Logo">
     </footer>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
