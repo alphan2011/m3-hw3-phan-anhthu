@@ -1,82 +1,94 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/main.css" type="text/css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
-    <!-- Google font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/main.css" type="text/css">
 
-    <title>Homework 3</title>
-  </head>
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-md">
-        <div class="container px-0">
+  <title>Homework 3</title>
+</head>
 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div id="navbarResponsive" class="collapse navbar-collapse">
-            <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
-              <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-              <li class="nav-item"><a class="nav-link" href="#"><span>Order Now</span></a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <main>
-      <section>
-        <img class="w-75 d-flex mx-auto" src="img/logo.png" alt="Bob's Burgers Logo">
-        <button class="d-flex mx-auto btn btn-primary">Order Now</button>
-      </section>
-
+<body>
+  <header>
+    <nav class="navbar navbar-light navbar-expand-md">
       <div class="container">
-        <section class="row">
-          <article class="col-lg-8">
-            <h2 class="text-uppercase">World's Best <span>Burgers</span></h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
-            <button class="btn btn-primary">View Menu</button>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="navbarResponsive" class="collapse navbar-collapse">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#"><span>Order Now</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="jumbotron">
+      <img class="w-75 d-flex mx-auto" src="img/logo.png" alt="Bob's Burgers Logo">
+      <button class="d-flex mx-auto btn btn-primary">Order Now</button>
+    </section>
+
+    <div class="container white-bg">
+      <section class="row">
+        <article class="col-lg-8">
+          <h2>World's Best <span>Burgers</span></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+          <button class="btn btn-primary">View Menu</button>
+        </article>
+
+        <img class="col-lg-4 align-self-center" src="img/bobs-burger.png" alt="Burger">
+      </section>
+    </div>
+
+    <div class="grey-bg">
+      <div class="container">
+        <section class="row flex-lg-row-reverse">
+          <article class="col-lg-8 align-self-center">
+            <h2>Dine-in or <span>Take-out</span></h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
+            <button class="btn btn-primary">Contact Us</button>
           </article>
 
-          <img class="col-lg-4" src="img/bobs-burger.png" alt="Burger">
+          <img class="col-lg-4" src="img/bob-headshot.png" alt="Bob">
         </section>
       </div>
+    </div>
+  </main>
 
-      <div>
-        <div class="container">
-          <section class="row flex-lg-row-reverse">
-            <article class="col-lg-8">
-              <h2 class="text-uppercase">Dine-in or <span>Take-out</span></h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.</p>
-              <button class="btn btn-primary">Contact Us</button>
-            </article>
+  <footer>
+    <img class="w-50 d-flex mx-auto" src="img/logo.png" alt="Logo">
+  </footer>
 
-            <img class="col-lg-4" src="img/bob-headshot.png" alt="Bob">
-          </section>
-        </div>
-      </div>
-    </main>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+</body>
 
-    <footer>
-      <img class="w-50 d-flex mx-auto" src="img/logo.png" alt="Logo">
-    </footer>
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-  </body>
 </html>
