@@ -1,0 +1,86 @@
+@import "mixins";
+
+body {
+  //Global styles
+  font-family: @roboto;
+  color: @black2;
+  h2 {
+    .heading();
+  }
+  p {
+    .copy();
+  }
+  .btn {
+    .buttons();
+    &:hover {
+      background-color: @red;
+      color: @grey;
+      border-color: @red;
+    }
+  }
+
+  //Header
+  .navbar {
+    background-color: @yellow;
+    padding: 2rem 0;
+    .nav-item {
+      padding-right: 2.5rem;
+      .nav-link {
+        .links();
+        &:hover {
+          color: @dark-grey;
+        }
+        @media (min-width: 768px) {
+          padding-left: 0px;
+        }
+        span {
+          color: @red;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  //Main
+  .jumbotron {
+    background-image: url('../img/banner-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 4rem 0 8rem 0;
+    img {
+      max-width: 32rem;
+      margin-bottom: 1rem;
+    }
+  }
+  .white-bg {
+    margin: 4rem auto;
+    span {
+      .span();
+    }
+    img {
+      max-width: 15rem;
+      margin: 2rem auto 0 auto;
+    }
+  }
+  .grey-bg {
+    background-color: @grey;
+    padding: 3rem 0;
+    span {
+      .span();
+    }
+    img {
+      max-width: 12rem;
+      margin: 2rem auto 0 auto;
+    }
+  }
+  
+  //Footer
+  footer {
+    background-color: @black;
+    padding: 2rem;
+    border-top: 1rem solid @yellow;
+    img {
+      max-width: 26rem;
+    }
+  }
+}

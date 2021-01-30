@@ -1,0 +1,127 @@
+.heading {
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.span {
+  font-size: 30px;
+  color: #ee252f;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.copy {
+  font-size: 16px;
+  font-weight: 400;
+}
+.links {
+  font-size: 18px;
+  font-weight: 500;
+  color: #050500;
+}
+.buttons {
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #f8df1f;
+  color: #050500;
+  text-transform: uppercase;
+  border-radius: 8px;
+  border-color: #f8df1f;
+  padding: 1rem 1.5rem;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #050500;
+}
+body h2 {
+  font-size: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+body p {
+  font-size: 16px;
+  font-weight: 400;
+}
+body .btn {
+  font-size: 18px;
+  font-weight: 500;
+  background-color: #f8df1f;
+  color: #050500;
+  text-transform: uppercase;
+  border-radius: 8px;
+  border-color: #f8df1f;
+  padding: 1rem 1.5rem;
+}
+body .btn:hover {
+  background-color: #ee252f;
+  color: #f3f3f3;
+  border-color: #ee252f;
+}
+body .navbar {
+  background-color: #f8df1f;
+  padding: 2rem 0;
+}
+body .navbar .nav-item {
+  padding-right: 2.5rem;
+}
+body .navbar .nav-item .nav-link {
+  font-size: 18px;
+  font-weight: 500;
+  color: #050500;
+}
+body .navbar .nav-item .nav-link:hover {
+  color: #3b3838;
+}
+@media (min-width: 768px) {
+  body .navbar .nav-item .nav-link {
+    padding-left: 0px;
+  }
+}
+body .navbar .nav-item .nav-link span {
+  color: #ee252f;
+  text-transform: uppercase;
+}
+body .jumbotron {
+  background-image: url('../img/banner-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem 0 8rem 0;
+}
+body .jumbotron img {
+  max-width: 32rem;
+  margin-bottom: 1rem;
+}
+body .white-bg {
+  margin: 4rem auto;
+}
+body .white-bg span {
+  font-size: 30px;
+  color: #ee252f;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+body .white-bg img {
+  max-width: 15rem;
+  margin: 2rem auto 0 auto;
+}
+body .grey-bg {
+  background-color: #f3f3f3;
+  padding: 3rem 0;
+}
+body .grey-bg span {
+  font-size: 30px;
+  color: #ee252f;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+body .grey-bg img {
+  max-width: 12rem;
+  margin: 2rem auto 0 auto;
+}
+body footer {
+  background-color: #080801;
+  padding: 2rem;
+  border-top: 1rem solid #f8df1f;
+}
+body footer img {
+  max-width: 26rem;
+}
